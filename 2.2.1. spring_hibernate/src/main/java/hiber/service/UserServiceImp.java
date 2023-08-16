@@ -41,7 +41,7 @@ public class UserServiceImp implements UserService {
 
    @Transactional
    @Override
-   public User getOwner(String model, int series) {
+   public List<User> getOwner(String model, int series) {
       return userDao.getOwner(model, series);
    }
 

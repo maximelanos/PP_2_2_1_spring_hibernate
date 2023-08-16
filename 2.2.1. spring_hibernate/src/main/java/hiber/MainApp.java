@@ -38,7 +38,7 @@ public class MainApp {
          System.out.println();
       }
 
-      System.out.println(userService.getOwner("BMW", 8));
+      System.out.println(userService.getOwner("BMW", 7));
 
       context.close();
    }
